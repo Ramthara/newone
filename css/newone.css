@@ -1,0 +1,152 @@
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 63px;
+margin: 0;
+background-color: #383838;
+filter: alpha(opacity=70);
+opacity: 0.7;
+z-index: 1
+font-family: 'Limelight', cursive;
+}
+
+ul li{
+  position:relative;
+  top:20px;
+ display: inline;
+}
+ul a{
+text-decoration: none;
+color:yellow;
+font-family: 'Limelight', cursive;
+
+font-size: 15px;
+padding-right: 30px;
+margin-left: 10px;
+position: relative;
+left: 200px
+}
+ul a:hover{
+  text-decoration: none;
+  color: 	  white;
+  font-size: 10px;
+}
+/*ramthara*/
+.main_content{
+      background-color: rgb(171,221,198);
+    min-height: 600px;
+}
+.main_content h1{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color#666633;
+  font-family: 'Limelight', cursive;
+  font-size: 60px;
+  padding-right: 20px;
+  color: red;
+}
+
+.white_background{
+
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  color: orange;
+  font-size: 40px;
+}
+.main_content p{
+  position: relative;
+  top: 150px;
+  text-align: center;
+  color#666633;
+  font-family: 'Limelight', cursive;
+  font-size: 60px;
+  padding-right: 20px;
+}
+/*footr*/
+footer{
+      background-color: transparent;
+      width: 100%;
+      height: 63px;
+      margin-top: -20px;
+      text-align: center;
+      transition: opacity 1s;
+}
+footer:hover{
+opacity:0.6;
+
+}
+footer img{
+position: relative;
+top: 30px;
+height: 30px;
+
+}
+footer:hover img{
+  background-color:white;
+  opacity: 0.2;
+}
+/*picturebox*/
+.picture{
+    background-color: rgb(252,252,252);
+    min-height: 600px;
+}
+.picture  h1{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color#666633;
+  font-family: 'Limelight', cursive;
+  font-size: 60px;
+  padding-right: 20px;
+  color: red;
+}
+.picture  p{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color#666633;
+  font-family: 'Limelight', cursive;
+  font-size: 30px;
+  padding-right: 20px;
+}
+/*16foto*/
+.pic_box img{
+  position: relative;
+  left: 60px;
+  top:100px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  color: grey;
+
+}
+
+.pic_box:hover img{
+
+  position: relative;
+  left: 60px;
+  top:100px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  color: grey;
+}
+img {
+       opacity: 0.1;
+       filter: alpha(opacity=3); /* For IE8 and earlier */
+}
+
+img:hover {
+    opacity: 2.2;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
